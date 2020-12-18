@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.sieroplus" name="[COLOR orchid]THE CREW REPO[/COLOR]" provider-name="Siero Plus" version="1.0">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension name="Siero plus" point="xbmc.addon.repository">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/thecrewwh/zips/master/_zip/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/thecrewwh/zips/master/_zip/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/thecrewwh/zips/master/_zip</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/therealatreides/housetools/master/code/_housefiles/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/therealatreides/housetools/master/code/_housefiles/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/therealatreides/housetools/master/code/_housefiles/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="[login|startup]" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"> siero plus is the ultimate streaming platform</summary>
+		<description lang="en">Ultimate swift streaming</description>
+		<platform>all</platform>
+		<license>Proprietary use license Version 3, 29 June 2020</license>
+		<disclaimer lang="en">Siero Plus is dedicated to provide you with content. Please ensure that you use it as per the EULA</disclaimer>
+		<assets>
+			<icon>logo_size.jpg</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/art/ss/1.png</screenshot>
+			<screenshot>resources/art/ss/2.png</screenshot>
+			<screenshot>resources/art/ss/3.png</screenshot>
+		</assets>
+	</extension>
+</addon>
